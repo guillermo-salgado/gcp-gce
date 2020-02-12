@@ -10,7 +10,6 @@
 4. sudo apt-get upgrade
 5. sudo apt-get install apache2 php libapache2-mod-php
 6. sudo systemctl status apache2
-7. sudo gsutil cp gs://bucket_name/file_name.php /var/www/html/file_name.php
 
 ### Instal mysql and phpmyadmin
 
