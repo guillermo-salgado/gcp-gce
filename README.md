@@ -19,9 +19,9 @@
 
 ## Create phpmyadmin user
 1. sudo mariadb
-2. CREATE USER '<user>'@'localhost' IDENTIFIED BY '<password>';
-3. GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;
+2. CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
+3. GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost' WITH GRANT OPTION;
 
 ## Deploy
-1. Upload project folder to <bucket_name>
-2. sudo gsutil cp -r gs://<bucket_name>/<folder_name> /var/www/html/
+1. Upload project folder to bucket_name
+2. sudo gsutil cp -r gs://bucket_name/folder_name /var/www/html/
