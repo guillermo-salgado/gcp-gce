@@ -22,7 +22,7 @@
     4. Enter a password for the phpMyAdmin application.
 4. sudo ln -s /usr/share/phpmyadmin /var/www/html/
 
-### Create phpmyadmin user
+### Create mysql user
 1. sudo mariadb
 2. CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 3. GRANT ALL PRIVILEGES ON \*.\* TO 'user'@'localhost' WITH GRANT OPTION;
