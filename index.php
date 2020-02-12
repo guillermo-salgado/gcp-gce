@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$username = "gacs";
+$username = "admin";
 $password = "Password1";
 $db = 'honduras';
 $db_port = '3306';
